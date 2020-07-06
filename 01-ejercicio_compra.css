@@ -1,0 +1,265 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Notable&family=Noto+Sans+JP:wght@300&family=Raleway:ital,wght@1,300&family=Roboto:wght@100;700;900&display=swap');
+
+*{
+margin:0;
+box-sizing:border-box;
+padding:0;
+}
+
+body{
+    background-color: rgb(23, 214, 119)
+}
+
+.contenedor {
+    width:880px;
+    height:780px;
+    background-color: white;
+    margin: 83px auto 0 auto;
+    border-radius: 8px;
+    clear: both;
+   
+}
+
+.contenedor__imagen {
+    width:800px;
+    position: relative;
+}
+
+.contenedor__logo{
+    width:450px;
+    height:450px;
+    border-radius: 8px;
+    position: absolute;
+    /*background-color: rgb(154, 223, 85);*/
+    left: -15%;
+    top: 120px;  
+    /*transform: translate(-500, 300%);*/
+    background-image: url("https://res.cloudinary.com/john-mantas/image/upload/v1537291846/codepen/delicious-apples/green-apple-with-slice.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    z-index: 102;
+}
+
+.Contenedor__detalle {
+    width:400px;
+    height:650px;
+    border-radius: 8px;
+    position: relative;
+    /*background-color: rgb(154, 223, 85);*/
+    background-color: white;
+    /*background: -webkit-radial-gradient(center, circle,#e4ee86,rgb(154, 255, 21));*/
+    left: -50px;
+    top: 70px;
+    z-index: 101;
+    box-shadow: rgb(131, 129, 129) 0px 0px 20px 0px;
+}
+
+.varios {
+    height:83%;
+    background: -webkit-radial-gradient(center, circle,#e4ee86,rgb(154, 255, 21));
+}
+
+
+.logos{
+   background-size: cover;
+   top:-510px;
+   left: -30px;
+   float: right;
+   position: relative;
+   font-size: 1.5rem;
+   color: white;
+}
+
+.imagena1 {
+    border: 1px solid rgb(155, 153, 153);
+    border-radius: 8px;
+    background-size: cover;
+    left: -15px;
+    top: 640px;
+    width:65px;
+    height:65px;
+    margin: 1px;
+    position: relative;
+    float: left;
+    background-image: url("https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png");
+    z-index: 103;
+}
+
+.imagena2{
+    border: 1px solid rgb(155, 153, 153);
+    border-radius: 8px;
+    background-size: cover;
+    right: -8px;
+    top: 640px;
+    width:65px;
+    height:65px;
+    position: relative;
+    float: left; 
+    background-image: url("https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png");
+    z-index: 103;
+}
+
+.imagena3{
+    border: 1px solid rgb(155, 153, 153);
+    border-radius: 8px;
+    right: -25px;
+    background-size: cover;
+    top: 640px;
+    width:65px;
+    height:65px;
+    position: relative;
+    float: left; 
+    background-image: url("https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png");
+    z-index: 103;
+}
+
+.imagena4{
+    border: 1px solid rgb(155, 153, 153);
+    border-radius: 8px;
+    background-size: cover;
+    right: -50px;
+    top: 640px;
+    width:65px;
+    height:65px;
+    position: relative;
+    float: left; 
+    background-image: url("https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png");
+    z-index: 103;
+}
+
+ 
+.contenedor__info{
+    top:-550px;
+    left: -70px;
+    float: right;
+    position: relative;
+    
+}
+
+.titulo{
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.3rem;
+    color: rgb(66, 65, 65);
+}
+.codigo{
+    font-size: 1rem;
+    color: rgb(202, 200, 200);
+}
+
+.costo{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: rgb(255, 57, 50);
+    font-style: normal;
+}
+.monto{
+    
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 4.5rem;
+    color: rgb(255, 57, 50);
+}
+
+.beneficio1{
+    
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+
+}
+
+.beneficio2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+}
+
+.beneficio3{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+}
+
+.beneficio4{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+}
+ 
+
+.imagen1{
+    border: 1px solid rgb(155, 153, 153);
+    border-radius: 8px;
+    background-size: cover;
+    width:45px;
+    height:45px;
+    float: left; 
+    margin: 5px; 
+    cursor: pointer;
+    background-image: url("https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png");
+}
+
+.imagen2{
+    background-size: cover;
+    width:45px;
+    height:45px;
+    float: left;
+    margin: 5px; 
+    cursor: pointer;
+    background-image: url("https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png");
+}
+
+.imagen3{
+    background-size: cover;
+    width:45px;
+    height:45px;
+    float: left; 
+    margin: 5px; 
+    cursor: pointer;
+    background-image: url("https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png");
+}
+
+.imagen4{
+    background-size: cover;
+    width:45px;
+    height:45px;
+    float: left; 
+    margin: 5px;
+    cursor: pointer; 
+    background-image: url("https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png");
+}
+
+.letra_beneficios{
+    font-size: 1.2rem;
+    color: rgb(194, 194, 194);
+
+}
+
+.subtitulo{
+    font-size: 1.2rem;
+    color: rgb(194, 194, 194);
+
+}
+
+
+.contenedor__boton{
+    width:250px;
+    height:75px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #f83838;
+    border-bottom: 4px solid #d42e2e;
+    border-radius: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: all 0.1s ease;   
+    box-shadow: rgb(131, 129, 129) 0px 0px 20px 0px;
+}
+    .contenedor__boton:hover {
+        border-bottom: 2px solid #d42e2e;
+        transform: translate(0, 2px);
+    }
